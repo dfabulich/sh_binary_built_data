@@ -1,6 +1,6 @@
 def _impl(ctx):
 	ctx.file_action(
-		content="hello",
+		content="hello\n",
 		output=ctx.outputs.out,
 	)		
 
